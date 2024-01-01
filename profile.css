@@ -1,0 +1,89 @@
+body{
+    background-image: url(img/background.jpg);
+    background-attachment: fixed;
+    font-family: "Bree Serif",serif;
+}
+
+.container{
+    border: 2px blue solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+}
+
+#p_title{
+    font-size:3vw;
+    font-family: "Rammetto One", Cursive;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.profile, .endorsement, .friends{
+    border: 2px yellow solid;
+    height: 33%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+}
+.endorsement{
+    flex-direction: row-reverse;
+    background-image: url(img/clouds.webp);
+}
+.profile{
+    flex-direction: row;
+}
+
+.friends{
+    flex-direction: column;
+}
+
+#p_text ,#p_pics, #e_pics , #e_text{
+    width: 49%;
+}
+
+#p_text , #e_pics{
+    border: 2px green solid;
+    width: 49%;
+}
+
+#p_pics , #e_text{
+    border: 2px red solid;
+    width: 49%;
+}
+
+#p_pics, #e_pics {
+    text-align: center;
+
+}
+
+#f_text{
+    border: 2px red solid;
+    text-align: center;
+}
+
+#f_pics{
+    border: 2px green solid;
+    text-align: center;
+}
+
+.banner{
+    height: 350px;
+    width:100%;
+    border: 3px orange dotted;
+}
+
+#b_img{
+ height: 100%;
+ width:100%;
+object-fit:cover;
+}
