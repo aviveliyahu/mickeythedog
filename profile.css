@@ -3,9 +3,6 @@ body{
     background-attachment: fixed;
     font-family: "Bree Serif",serif;
 }
-/* הערה לדוגמה */
-/* test 2 */
-/* test 3 */
 
 .container{
     border: 2px blue solid;
@@ -21,7 +18,7 @@ body{
 
 #p_title{
     font-size:3vw;
-    font-family: "Rammetto One", Cursive;
+    font-family: 'Rammetto One',Cursive;
     padding-top: 10px;
     text-align: center;
 }
