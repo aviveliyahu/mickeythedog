@@ -16,14 +16,14 @@ body{
     background-color: white;
 }
 
-#p_title{
+#i_title{
     font-size:3vw;
     font-family: 'Rammetto One',Cursive;
     padding-top: 10px;
     text-align: center;
 }
 
-.profile, .endorsement, .friends{
+.info, .endorsement, .friends{
     border: 2px yellow solid;
     height: 33%;
     padding-left: 5%;
@@ -39,7 +39,8 @@ body{
     flex-direction: row-reverse;
     background-image: url(img/clouds.webp);
 }
-.profile{
+
+.info{
     flex-direction: row;
 }
 
@@ -47,23 +48,23 @@ body{
     flex-direction: column;
 }
 
-#pleft ,#pright, #eleft ,#eright{
+#ileft ,#iright, #eleft ,#eright{
     width: 49%;
     max-width: 49%;
 }
 
-#pright , #eleft{
+#iright , #eleft{
     border: 2px green solid;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#pleft , #eright{
+#ileft , #eright{
     border: 2px red solid;
 }
 
-#pright, #eleft {
+#iright, #eleft {
     text-align: center;
 }
 
@@ -82,10 +83,26 @@ body{
     height: 350px;
     width:100%;
     border: 3px orange dotted;
+    position: relative;
 }
 
 #b_img{
  height: 100%;
  width:100%;
 object-fit:cover;
+}
+
+
+.top_page{
+    position: relative;
+}
+
+#pimg{
+    position: fixed;
+    border-radius: 200px;
+    border: 10px red dotted;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 70%;
+    margin-left: -2%;
 }
