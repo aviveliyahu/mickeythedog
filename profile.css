@@ -98,7 +98,7 @@ object-fit:cover;
 }
 
 #pimg{
-    position: fixed;
+    position: absolute;
     border-radius: 200px;
     border: 10px red dotted;
     width: 150px;
