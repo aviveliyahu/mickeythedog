@@ -21,7 +21,7 @@ body{
 
 #p_title{
     font-size:3vw;
-    font-family: "Rammetto One", Cursive;
+    font-family: 'Rammetto One',Cursive;
     padding-top: 10px;
     text-align: center;
 }
@@ -50,31 +50,33 @@ body{
     flex-direction: column;
 }
 
-#p_text ,#p_pics, #e_pics , #e_text{
+#pleft ,#pright, #eleft ,#eright{
     width: 49%;
+    max-width: 49%;
 }
 
-#p_text , #e_pics{
+#pright , #eleft{
     border: 2px green solid;
-    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#p_pics , #e_text{
+#pleft , #eright{
     border: 2px red solid;
-    width: 49%;
 }
 
-#p_pics, #e_pics {
-    text-align: center;
-
-}
-
-#f_text{
-    border: 2px red solid;
+#pright, #eleft {
     text-align: center;
 }
 
-#f_pics{
+
+#ftop{
+    border: 2px red solid;
+    text-align: center;
+}
+
+#fbottom{
     border: 2px green solid;
     text-align: center;
 }
