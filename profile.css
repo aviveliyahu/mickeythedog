@@ -68,7 +68,6 @@ body{
     text-align: center;
 }
 
-
 #ftop{
     border: 2px red solid;
     text-align: center;
@@ -81,28 +80,23 @@ body{
 
 .banner{
     height: 350px;
-    width:100%;
     border: 3px orange dotted;
-    position: relative;
 }
 
 #b_img{
- height: 100%;
- width:100%;
-object-fit:cover;
+    height: 100%;
+    width:100%;
+   object-fit:cover;
 }
 
-
-.top_page{
+.pcontainer{
     position: relative;
+    height:fit-content;
 }
 
 #pimg{
     position: absolute;
     border-radius: 200px;
     border: 10px red dotted;
-    width: 150px;
-    height: 150px;
-    margin-bottom: 70%;
-    margin-left: -2%;
+    left: -2%;
 }
