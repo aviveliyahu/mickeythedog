@@ -1,7 +1,13 @@
+<!-- HTML file of Ex2 by Aviv Yonathan Eliyahu and Matan Asraf -->
 <!DOCTYPE html>
 <html lang = "en">
 
 <head>
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bruno+Ace+SC&family=Rammetto+One&display=swap" rel="stylesheet">
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Rammetto+One&display=swap" rel="stylesheet">
@@ -11,19 +17,17 @@
 
 <body>
 	<div class="container">
-		<div class = "top_page">
-				<!-- Banner start -->
-			<div>
-				<div class="banner">
-					<img id="b_img" src="img/banner.png" alt="banner"/>
+		<!-- Banner start -->
+		<div class="profile">
+			<div class="banner">
+				<img id="back_img" src="img/banner.png" alt="banner">
 			</div>
-				<!-- Banner end -->
-				<img id="pimg" src="img/profile.png" alt="profile" width="25%" height="25%">
-		</div class="top_page">
+			<img id="profile_img" src="img/profile.png" alt="profile">
 		</div>
-		<h1 id="i_title"> Mickey the Debug Dog </h1>
+		<!-- Banner end -->
+		<h1 id="info_title"> Mickey the Debug Dog</h1>
 		<div class="info">
-			<div id="ileft">
+			<div id="info_left">
 				<p>
 					Many a programmer have heard of
 					<a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">Rubber Duck Debugging</a>.
@@ -33,64 +37,66 @@
 						<a href= "https://en.wikipedia.org/wiki/Dog">Dogs</a> are known in many cultures as men and women's best friends. Most cultures rate these mythical creatures as above average intelligence, making them especially
 						good at helping to debug those tough problems in your code.
 				</p>
-				<div>
-					<p>
-						Real Name
-					</p>
-					<p>
-						GOSIG GOLDEN by <a href="https://www.ikea.com/">Ikea</a>
-					</p>
-				</div>
-				<div>
-					<p>
-						Birthdate/"Gotcha Day"
-					</p>
-					<p>
-						Born &copy; 2001 in China, but found at a rummage sale in Seattle, WA in March of 2012.
-					</p>
-				</div>
-				<div>
-					<p>
-						Powers
-					</p>
-					<p>
-						As Douglas Adams once said “One is never alone with a rubber duck.” Mickey, the Debug Dog is a
-						patient listener, able to help you solve your debugging woes. Unlike a rubber duck, Mickey is also soft and cuMickeyly, doubling
-						as a pillow for those occasional times you need to just close your eyes for a 5 minute power nap.
-					</p>
-				</div>
-				<div>
-					<p>
-						Stats
-					</p>
-					<p>
-						<strong>Real name:</strong>GOSIG GOLDEN<br>
-						<strong>Prefered pronouns:</strong>They/Them<br>
-						<strong>Size:</strong>12" x 16" X 12"<br>
-						<strong>Weight:</strong>2 lbs<br>
-					</p>
-				</div>
-				<div>
-					<p>
-						Siblings
-					</p>
-					<ul>
-						<li>Francesca (Dark Purple)</li>
-						<li>Bartholomew (Light Green)</li>
-						<li>Marcello (Blue)</li>
-						<li>Cordelia (Dark Green)</li>
-						<li>Guinevier (Gold)</li>
-					</ul>
+				<div id="mickey_info">
+					<div class="parameter_titles">
+						<p class="parameters">
+							Real Name
+						</p>
+						<p class="answers">
+							GOSIG GOLDEN by <a href="https://www.ikea.com/">Ikea</a>
+						</p>
+					</div>
+					<div class="parameter_titles">
+						<p class="parameters">
+							Birthdate/"Gotcha Day"
+						</p>
+						<p class="answers">
+							Born &copy; 2001 in China, but found at a rummage sale in Seattle, WA in March of 2012.
+						</p>
+					</div>
+					<div class="parameter_titles">
+						<p class="parameters">
+							Powers
+						</p>
+						<p class="answers">
+							As Douglas Adams once said “One is never alone with a rubber duck.” Mickey, the Debug Dog is a
+							patient listener, able to help you solve your debugging woes. Unlike a rubber duck, Mickey is also soft and cuMickeyly, doubling
+							as a pillow for those occasional times you need to just close your eyes for a 5 minute power nap.
+						</p>
+					</div>
+					<div class="parameter_titles">
+						<p class="parameters">
+							Stats
+						</p>
+						<p class="answers">
+							<strong>Real name:</strong>GOSIG GOLDEN<br>
+							<strong>Prefered pronouns:</strong>They/Them<br>
+							<strong>Size:</strong>12" x 16" X 12"<br>
+							<strong>Weight:</strong>2 lbs<br>
+						</p>
+					</div>
+					<div class="parameter_titles">
+						<p class="parameters">
+							Siblings
+						</p>
+						<ul class="answers">
+							<li>Francesca (Dark Purple)</li>
+							<li>Bartholomew (Light Green)</li>
+							<li>Marcello (Blue)</li>
+							<li>Cordelia (Dark Green)</li>
+							<li>Guinevier (Gold)</li>
+						</ul>
 				</div>
 			</div>
-			<div id="iright">
-				<img src="img/profile1.png" />
+			</div>
+			<div id="info_right">
+				<img id="info_img" src="img/profile1.png" alt="info_image">
 			</div>
 		</div>
 		<div class="endorsement">
-			<div id="eright">
-				<h2 id="e_title"> Endorsement</h2>
-				<div>
+			<div id="end_right">
+				<h2 id="end_title"> Endorsement</h2>
+				<div class="end_box">
 					<p>
 						I remember the first time I met Mickey the Debug Dog.
 						Mickey looked so fierce as they stared at the code with me. I slowly explained
@@ -98,57 +104,57 @@
 						The pauses were uncomfortable, but then I SAW it. I saw the error. Mickey
 						saved me hours of anguish.
 					</p>
-					<hr />
+					<hr class="seperator">
 					<span >Sofia H, AP CS student.</span>
 				</div>
-				<div>
+				<div class="end_box">
 					<p>
 						Mickey KNOWS THE WAE Mickey 
 					</p>
-					<hr />
-					<span>Manesh J, Software Engineer, Imaginarium.</span>
+					<hr class="seperator">
+					<span class="name">Manesh J, Software Engineer, Imaginarium.</span>
 				</div>
-				<div>
+				<div class="end_box">
 					<p>
 						Mickey has been an amazing help to me, someone who listens to every problem and is never judgemental.
 					</p>
-					<hr />
-					<span>Chris L, Programming Club Participant.</span>
+					<hr class="seperator">
+					<span class="name">Chris L, Programming Club Participant.</span>
 				</div>
-				<div>
+				<div class="end_box">
 					<p>
-						AMickey your own endorsement here!
+						Mickey helped me to write my first website! it was challenging but very educational.
 					</p>
-					<hr />
-					<span>With your name here</span>
+					<hr class="seperator">
+					<span class="name">Aviv Yonathan Eliyahu</span>
 				</div>
-				<div>
+				<div class="end_box">
 					<p>
 						AMickey your friend's endorsement here!
 					</p>
-					<hr />
-					<span>With your friend's name here</span>
+					<hr class="seperator">
+					<span class="name">Matan Asraf</span>
 				</div>
 			</div>
-			<div id="eleft">
-				<img src="img/profile2.png" />
+			<div id="end_left">
+				<img id="end_image" src="img/profile2.png" alt="endorsement_img">
 			</div>
 		</div>
 		<div class="friends">
-			<h2 id="ftop"> Meet the whole debugging squad </h2>
-			<div id="fbottom">
-					<img src="img/friend1.png" />
-					<img src="img/friend2.png" />
-					<img src="img/friend3.png" />
-					<img src="img/friend4.png" />
-					<img src="img/friend5.png" />
-					<img src="img/friend6.png" />
-					<img src="img/friend7.png" />
-					<img src="img/friend8.png" />
+			<h2 id="friends_title"> Meet the whole debugging squad </h2>
+			<div id="friends_bottom">
+					<img class="friends_img" src="img/friend1.png" alt="friend_img1">
+					<img class="friends_img" src="img/friend2.png" alt="friend_img2">
+					<img class="friends_img" src="img/friend3.png" alt="friend_img3">
+					<img class="friends_img" src="img/friend4.jpg" alt="friend_img4">
+					<img class="friends_img" src="img/friend5.jpg" alt="friend_img5">
+					<img class="friends_img" src="img/friend6.jpg" alt="friend_img6">
+					<img class="friends_img" src="img/friend7.jpeg" alt="friend_img7">
+					<img class="friends_img" src="img/friend8.jpg" alt="friend_img8">
 			</div>
 		</div>
-		Zefat Academic College
-		<div>
+		<div id="zefat">
+			Zefat Academic College
 		</div>
 	</div>
 </body>
